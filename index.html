@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+ <header class="content-title">
+    <div class="title">
+        <h1>CALCULADORA IMC</h1>
+    </div>
+ </header>
+ <div class="content">
+     <div class="sub-title">
+      <div class="content-sub-title">
+         <h2>Descubra su indice de masa corporal</h2>
+      </div>
+     </div>
+   
+     <form action="#" target="" method="GET" name="formData">
+         <div class="cont-form-one">
+            <label for="gender">Género</label>
+            <input type="radio" name="genero" id="male-gender">
+            <label for="male">Masculino</label>
+            <input type="radio" name="genero" id="female-gender">
+            <label for="female">Femenino</label>
+         </div>
+         <div class="cont-form-two">
+            <label for="age">Edad</label>
+            <input type="text" id="age-input" required>
+         </div>
+         <div class="cont-form-three">
+            <label for="weight">Peso</label>
+            <input type="text" id="weight-input" required>   
+         </div>
+         <div class="cont-form-four">
+            <label for="height">Altura</label>
+            <input type="text" id="height-input" required>
+         </div>
+         <div class="content-button">
+            <input type="button" class="send"  value="Enviar" onclick="mostrarSeleccionado()">
+         </div>
+     </form>
+     <div class="content-resultado">
+        <div class="resultado">
+            <div id="title-resultado">
+               <h1 class="title-res">RESULTADO</h1>
+            </div>
+           <div class="content-imc">
+               <h3 id="imc">IMC</h3>
+           </div>
+           <div class="content-estado">
+               <h3 id="estado">Estado</h3>
+           </div>
+        </div>
+     </div>
+ </div>
+    <script src="./scripts/script.js"> </script>
+</body>
+</html>

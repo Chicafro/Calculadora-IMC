@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather+Sans:ital,wght@0,500;1,500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+
+form{
+    background-color: lightsalmon;
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+form label{
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+form input[type="text"]{
+    width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+.send{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+} 
+.content-button{
+    width: 55%;
+    
+}
+.content-title{
+    background-color: lightsalmon;
+    height: 80px;
+    margin: 16pox auto;
+    
+}
+.title{
+    width: 50%;
+    margin: 16px auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+}
+.sub-title{
+    
+    max-width: 500px;
+    max-height: 600px;
+    display: flex;
+    margin: 16px auto;
+}
+
+.content-sub-title{
+    margin: 16px auto;
+}
+.content-resultado{
+    width: 100%;
+    max-width: 500px;
+    max-height: 600px;
+    display: flex;
+    margin: 16px auto;
+    background-color: lightsalmon;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.resultado{
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+}
+.content-imc{
+    margin: 10px auto;
+    display: block;
+    font-size: 18px;
+}
+.content-estado{
+    margin: 16px auto;
+    display: block;
+    font-size: 18px;
+}
+#title-resultado{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+}
+
